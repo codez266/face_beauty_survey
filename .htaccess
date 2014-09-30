@@ -1,0 +1,5 @@
+
+ <Files index.php>
+     Satisfy Any
+     Allow from all
+ </Files>

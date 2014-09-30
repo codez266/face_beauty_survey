@@ -1,0 +1,128 @@
+html,body{
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0;
+}
+ul,ol{
+	margin:0;
+	padding:0;
+}
+h1,h2{
+	text-align:center;
+}
+#start{
+	font-size:100px;
+	position:absolute;
+	right:10%;
+	top:70%;
+}
+.faceimg{
+	height:450px;
+	border:0px solid red;
+	width:auto;
+	margin:0 auto;
+}
+.face{
+	margin:0 auto;
+	text-align:center;
+}
+.response{
+	display: block;
+	width:420px;
+	margin:10px auto;
+	border:0px solid red;
+}
+.row{
+	width:300px;
+	margin:0 auto;
+
+}
+.row div{
+	display:inline;
+	border:0px solid red;
+	margin:0 10px;
+}
+.response .next{
+	width:50px;
+	display:block;
+	margin:10px auto;
+
+}
+
+/*Graph style*/
+.chartwrap h3{
+	display:inline;
+	margin:10px 0;
+}
+.chartwrap{
+	text-align: center;
+	width:570px;
+	margin:0 auto;
+}
+.chart{
+	position:relative;
+	width:570px;
+	border:1px solid black;
+}
+.chart div {
+	position:relative;
+  font: 20px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+.chart div span{
+	position:absolute;
+	left:0;
+	margin-left:-25px;
+	color:black;
+}
+/*Ratio Chart*/
+.data{
+	float:left;
+}
+.ratiochartwrap h3{
+	display:inline;
+	margin:10px 0;
+}
+.ratiochartwrap{
+	text-align: center;
+	margin:20px;
+	width:510px;
+}
+.ratiochart{
+	position:relative;
+	border:1px solid black;
+	width:508px;
+	margin:10px 20px;
+}
+.ratiochart div {
+	position:relative;
+  font: 20px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+.ratiochart div span{
+	position:absolute;
+	left:0;
+	margin-left:-25px;
+	color:black;
+}
+.ratiodesc{
+	position:fixed;
+	right:5%;
+	bottom:5%;
+	font-size:20px;
+	width:40%;
+	border:1px solid black;
+	padding:10px;
+}
+.ratiodesc .row{
+	width:auto;
+}
